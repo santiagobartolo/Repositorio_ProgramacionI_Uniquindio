@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
         int filas = 7; // altura de la pirámide
-        int columnas = 13; // ancho de la matriz (para centrar la pirámide)
+        int columnas = filas * 2 - 1; // ancho de la matriz (para centrar la pirámide)
 
         char[][] matriz = new char[filas][columnas];
 
